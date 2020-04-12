@@ -7,7 +7,7 @@ import { RouterModule,Routes } from '@angular/router';
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes, { enableTracing: true } )// <-- debugging purposes only)
   ],
   exports: [
     RouterModule
