@@ -7,7 +7,7 @@ import { LEADERS } from '../common/leaders';
 })
 export class LeaderService {
 
-  getLeader():Leader[]{
+  getLeaderList():Leader[]{
     return LEADERS;
   }
 
