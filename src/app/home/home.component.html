@@ -18,6 +18,10 @@
     </p>
   </mat-card-content>
 </mat-card>
+<mat-card fxFlex *ngIf="homeErr">
+  <h2>Error</h2>
+  <h5>{{homeErr}}</h5>
+</mat-card>
 
 <mat-card *ngIf="promotion" fxFlex>
   <mat-card-header>
